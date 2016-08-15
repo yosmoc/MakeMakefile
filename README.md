@@ -1,8 +1,24 @@
 # MakeMakefile
 
-Concat GNU Make pdfs to a pdf.
+Concat [GNU Make 3rd edition(Japanese)](http://www.oreilly.co.jp/library/4873112699/) pdfs to a pdf file.
 
 ## Usage
+
+### Create pdf concatenated pdf file
 ```sh:
-make
+$ make
 ```
+
+### Delete pdfs
+
+```sh:
+$ make clean
+```
+
+## Support OS
+
+- OSX
+
+## Dependencies
+
+- wget
