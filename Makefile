@@ -7,7 +7,7 @@ all: download concat
 
 download:
 	for file in $(SRCS) ; do \
-		wget $(URL)$$file ; \
+		wget -N $(URL)$$file ; \
 	done
 
 concat:
