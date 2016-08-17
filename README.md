@@ -4,7 +4,7 @@ Concat [GNU Make 3rd edition(Japanese)](http://www.oreilly.co.jp/library/4873112
 
 ## Usage
 
-### Create pdf concatenated pdf file
+### Create the concatenated pdf file
 ```sh:
 $ make
 ```
